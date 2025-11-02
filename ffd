@@ -1,0 +1,17 @@
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+user.name=Antoha00000
+user.email=tomm-07@mail.ru
+gpg.program=/.codespaces/bin/gh-gpgsign
+init.defaultbranch=main
+credential.helper=/.codespaces/bin/gitcredential_github.sh
+credential.helper=
+credential.helper=/opt/cs50/bin/gitcredential_github.sh
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=git@github.com:Antoha00000/Antoha00000.github.io.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
